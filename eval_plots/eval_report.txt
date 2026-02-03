@@ -1,0 +1,26 @@
+CNN Accuracy on entire dataset: 90.74%
+
+ Classification Report:
+                               precision    recall  f1-score   support
+
+   Heart failure with infarct       0.68      1.00      0.81       700
+Heart failure without infarct       0.99      0.80      0.88      3040
+                  Hypertrophy       0.91      0.99      0.95      2678
+                       Normal       0.94      1.00      0.97       720
+
+                     accuracy                           0.91      7138
+                    macro avg       0.88      0.95      0.90      7138
+                 weighted avg       0.93      0.91      0.91      7138
+
+
+Text Model Patient-Level Accuracy: 95.97%
+
+ Classification Report:
+                           precision    recall  f1-score   support
+
+ Absence of Heart Disease       0.96      0.95      0.96       561
+Presence of Heart Disease       0.96      0.97      0.96       629
+
+                 accuracy                           0.96      1190
+                macro avg       0.96      0.96      0.96      1190
+             weighted avg       0.96      0.96      0.96      1190
