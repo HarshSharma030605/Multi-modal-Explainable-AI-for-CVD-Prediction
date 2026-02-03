@@ -22,8 +22,6 @@ Unlike traditional "black-box" models, this framework prioritizes **interpretabi
 
 ---
 
----
-
 ## 🔬 Methodology
 
 ### 1. Clinical Data Pipeline (DNN)
@@ -63,22 +61,22 @@ Since the models are generated locally to keep the repository lightweight, you m
 
 1. **Preprocessing**: Prepare the XAI background dataset.
 ```bash
-python src/data_prep/background_preprocess.py
+python background_preprocess.py
 
 ```
 
 
 2. **Training**: Train the clinical and imaging models.
 ```bash
-python src/models/text_model_trainer.py
-python src/models/cnn_model-trainer.py
+python text_model_trainer.py
+python cnn_model-trainer.py
 
 ```
 
 
 3. **Diagnosis & XAI**: Generate reports for a specific patient.
 ```bash
-python src/xai_engine/explainer.py
+python explainer.py
 
 ```
 
