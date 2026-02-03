@@ -1,4 +1,4 @@
-# 🩺 Unified Multimodal XAI Framework for Cardiovascular Disease Prediction
+# 🩺 Unified Multi-modal XAI Framework for Cardiovascular Disease Prediction
 
 ![Project Icon](Icon.png)
 
