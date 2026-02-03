@@ -80,8 +80,6 @@ python explainer.py
 
 ```
 
-
-
 ---
 
 ## 🛠️ Tech Stack
@@ -103,5 +101,3 @@ This project is part of a research paper titled:
 If you use this code in your research, please cite this repository.
 
 Created with ❤️ by Harsh Sharma and V. Vijay Kumar
-
-```
